@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using TesteInvillia.Domain.Common;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace TesteInvillia.Application.Common.Interfaces
 {
     public interface IDomainEventService
     {

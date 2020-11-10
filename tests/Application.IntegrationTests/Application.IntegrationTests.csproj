@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>CleanArchitecture.Application.IntegrationTests</RootNamespace>
-    <AssemblyName>CleanArchitecture.Application.IntegrationTests</AssemblyName>
+    <RootNamespace>TesteInvillia.Application.IntegrationTests</RootNamespace>
+    <AssemblyName>TesteInvillia.Application.IntegrationTests</AssemblyName>
     
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -31,7 +31,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\WebUI\WebApi.csproj" />
+    <ProjectReference Include="..\..\src\Application\Application.csproj" />
+    <ProjectReference Include="..\..\src\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\src\Web-Api\WebApi.csproj" />
   </ItemGroup>
 
 </Project>

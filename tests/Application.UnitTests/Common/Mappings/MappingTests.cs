@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Amigos.Queries.GetAmigos;
-using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Application.Emprestimos.Queries;
-using CleanArchitecture.Application.Jogos.Queries.GetJogos;
-using CleanArchitecture.Domain.Entities;
+using TesteInvillia.Application.Amigos.Queries.GetAmigos;
+using TesteInvillia.Application.Common.Mappings;
+using TesteInvillia.Application.Emprestimos.Queries;
+using TesteInvillia.Application.Jogos.Queries.GetJogos;
+using TesteInvillia.Domain.Entities;
 using NUnit.Framework;
 using System;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Mappings
+namespace TesteInvillia.Application.UnitTests.Common.Mappings
 {
     public class MappingTests
     {

@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Amigos.Commands.UpdateAmigo
+namespace TesteInvillia.Application.Amigos.Commands.UpdateAmigo
 {
     public class UpdateAmigoCommandValidator : AbstractValidator<UpdateAmigoCommand>
     {

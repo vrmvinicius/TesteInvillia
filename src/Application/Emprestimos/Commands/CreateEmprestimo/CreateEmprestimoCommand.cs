@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Events;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Domain.Entities;
+using TesteInvillia.Domain.Events;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.Commands.CreateEmprestimo
+namespace TesteInvillia.Application.Emprestimos.Commands.CreateEmprestimo
 {
     public class CreateEmprestimoCommand : IRequest<int>
     {

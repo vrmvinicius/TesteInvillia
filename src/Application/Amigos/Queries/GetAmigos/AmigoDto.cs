@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Domain.Entities;
+using TesteInvillia.Application.Common.Mappings;
+using TesteInvillia.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Application.Amigos.Queries.GetAmigos
+namespace TesteInvillia.Application.Amigos.Queries.GetAmigos
 {
     public class AmigoDto : IMapFrom<Amigo>
     {

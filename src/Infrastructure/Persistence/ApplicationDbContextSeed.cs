@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Infrastructure.Identity;
+﻿using TesteInvillia.Domain.Entities;
+using TesteInvillia.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Persistence
+namespace TesteInvillia.Infrastructure.Persistence
 {
     public static class ApplicationDbContextSeed
     {

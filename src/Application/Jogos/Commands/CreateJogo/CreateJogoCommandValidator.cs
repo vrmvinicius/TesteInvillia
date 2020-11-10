@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Jogos.Commands.CreateJogo
+namespace TesteInvillia.Application.Jogos.Commands.CreateJogo
 {
     public class CreateJogoCommandValidator : AbstractValidator<CreateJogoCommand>
     {

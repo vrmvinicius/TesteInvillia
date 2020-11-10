@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Amigos.Commands.CreateAmigo;
-using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Emprestimos.Commands.CreateEmprestimo;
-using CleanArchitecture.Application.Emprestimos.Commands.UpdateEmprestimo;
-using CleanArchitecture.Application.Jogos.Commands.CreateJogo;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Amigos.Commands.CreateAmigo;
+using TesteInvillia.Application.Common.Exceptions;
+using TesteInvillia.Application.Emprestimos.Commands.CreateEmprestimo;
+using TesteInvillia.Application.Emprestimos.Commands.UpdateEmprestimo;
+using TesteInvillia.Application.Jogos.Commands.CreateJogo;
+using TesteInvillia.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.IntegrationTests.Emrestimos.Commands
+namespace TesteInvillia.Application.IntegrationTests.Emrestimos.Commands
 {
     using static Testing;
 

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CleanArchitecture.Application.Common.Interfaces;
+using TesteInvillia.Application.Common.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.Queries
+namespace TesteInvillia.Application.Emprestimos.Queries
 {
     public class GetEmprestimosQuery : IRequest<List<EmprestimoDto>>
     {

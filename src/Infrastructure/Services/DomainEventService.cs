@@ -1,12 +1,12 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Common;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Application.Common.Models;
+using TesteInvillia.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Services
+namespace TesteInvillia.Infrastructure.Services
 {
     public class DomainEventService : IDomainEventService
     {

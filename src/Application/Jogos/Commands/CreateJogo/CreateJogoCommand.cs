@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Jogos.Commands.CreateJogo
+namespace TesteInvillia.Application.Jogos.Commands.CreateJogo
 {
     public class CreateJogoCommand : IRequest<int>
     {

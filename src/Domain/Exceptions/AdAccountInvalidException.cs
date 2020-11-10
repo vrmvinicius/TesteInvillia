@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CleanArchitecture.Domain.Exceptions
+namespace TesteInvillia.Domain.Exceptions
 {
     public class AdAccountInvalidException : Exception
     {

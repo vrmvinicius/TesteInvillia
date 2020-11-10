@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CleanArchitecture.Application.Common.Exceptions
+namespace TesteInvillia.Application.Common.Exceptions
 {
     public class NotFoundException : Exception
     {

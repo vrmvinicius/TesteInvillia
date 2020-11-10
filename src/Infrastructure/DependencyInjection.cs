@@ -1,13 +1,17 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.Infrastructure.Services;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Infrastructure.Identity;
+using TesteInvillia.Infrastructure.Persistence;
+using TesteInvillia.Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Text;
 
-namespace CleanArchitecture.Infrastructure
+namespace TesteInvillia.Infrastructure
 {
     public static class DependencyInjection
     {
@@ -16,7 +20,7 @@ namespace CleanArchitecture.Infrastructure
             if (configuration.GetValue<bool>("UseInMemoryDatabase"))
             {
                 services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseInMemoryDatabase("CleanArchitectureDb"));
+                    options.UseInMemoryDatabase("TesteInvillia"));
             }
             else
             {
@@ -38,10 +42,10 @@ namespace CleanArchitecture.Infrastructure
 
             services.AddTransient<IDateTime, DateTimeService>();
             services.AddTransient<IIdentityService, IdentityService>();
-            
+
             services.AddAuthentication()
                 .AddIdentityServerJwt();
-
+                        
             return services;
         }
     }

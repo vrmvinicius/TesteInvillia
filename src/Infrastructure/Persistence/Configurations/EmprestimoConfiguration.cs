@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Infrastructure.Persistence.Configurations
+namespace TesteInvillia.Infrastructure.Persistence.Configurations
 {
     public class EmprestimoConfiguration : IEntityTypeConfiguration<Emprestimo>
     {

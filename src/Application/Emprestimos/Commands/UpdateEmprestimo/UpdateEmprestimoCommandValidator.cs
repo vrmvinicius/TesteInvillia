@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.Commands.UpdateEmprestimo
+namespace TesteInvillia.Application.Emprestimos.Commands.UpdateEmprestimo
 {
     public class UpdateEmprestimoCommandValidator : AbstractValidator<UpdateEmprestimoCommand>
     {

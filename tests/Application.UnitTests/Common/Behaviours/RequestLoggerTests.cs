@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Application.Amigos.Commands.CreateAmigo;
-using CleanArchitecture.Application.Common.Behaviours;
-using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Amigos.Commands.CreateAmigo;
+using TesteInvillia.Application.Common.Behaviours;
+using TesteInvillia.Application.Common.Interfaces;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Behaviours
+namespace TesteInvillia.Application.UnitTests.Common.Behaviours
 {
     public class RequestLoggerTests
     {

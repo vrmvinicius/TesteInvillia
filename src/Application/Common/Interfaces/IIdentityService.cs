@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using TesteInvillia.Application.Common.Models;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common.Interfaces
+namespace TesteInvillia.Application.Common.Interfaces
 {
     public interface IIdentityService
     {

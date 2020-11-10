@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using TesteInvillia.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Domain.Entities
+namespace TesteInvillia.Domain.Entities
 {
     public class Jogo : AuditableEntity
     {

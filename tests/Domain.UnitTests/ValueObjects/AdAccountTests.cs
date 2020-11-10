@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Exceptions;
-using CleanArchitecture.Domain.ValueObjects;
+﻿using TesteInvillia.Domain.Exceptions;
+using TesteInvillia.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Domain.UnitTests.ValueObjects
+namespace TesteInvillia.Domain.UnitTests.ValueObjects
 {
     public class AdAccountTests
     {

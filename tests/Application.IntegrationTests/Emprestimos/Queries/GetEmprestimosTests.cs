@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Application.Emprestimos.Queries;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Emprestimos.Queries;
+using TesteInvillia.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.IntegrationTests.Emprestimos.Queries
+namespace TesteInvillia.Application.IntegrationTests.Emprestimos.Queries
 {
     using static Testing;
 

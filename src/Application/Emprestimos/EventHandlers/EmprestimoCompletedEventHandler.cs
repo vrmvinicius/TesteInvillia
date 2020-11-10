@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Events;
+﻿using TesteInvillia.Application.Common.Models;
+using TesteInvillia.Domain.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.EventHandlers
+namespace TesteInvillia.Application.Emprestimos.EventHandlers
 {
     public class EmprestimoCompletedEventHandler : INotificationHandler<DomainEventNotification<EmprestimoCompletedEvent>>
     {
@@ -23,7 +23,7 @@ namespace CleanArchitecture.Application.Emprestimos.EventHandlers
         {
             var domainEvent = notification.DomainEvent;
 
-            _logger.LogInformation("CleanArchitecture Domain Event: {DomainEvent}", domainEvent.GetType().Name);
+            _logger.LogInformation("Domain Event: {DomainEvent}", domainEvent.GetType().Name);
 
             return Task.CompletedTask;
         }

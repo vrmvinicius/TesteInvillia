@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Domain.Common;
+using TesteInvillia.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Domain.Events
+namespace TesteInvillia.Domain.Events
 {
     public class EmprestimoCreatedEvent : DomainEvent
     {

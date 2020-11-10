@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Events;
+﻿using TesteInvillia.Application.Common.Models;
+using TesteInvillia.Domain.Events;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.EventHandlers
+namespace TesteInvillia.Application.Emprestimos.EventHandlers
 {
     public class EmprestimoCreateEventHandler
     {
@@ -22,7 +22,7 @@ namespace CleanArchitecture.Application.Emprestimos.EventHandlers
         {
             var domainEvent = notification.DomainEvent;
 
-            _logger.LogInformation("CleanArchitecture Domain Event: {DomainEvent}", domainEvent.GetType().Name);
+            _logger.LogInformation("Domain Event: {DomainEvent}", domainEvent.GetType().Name);
 
             return Task.CompletedTask;
         }
