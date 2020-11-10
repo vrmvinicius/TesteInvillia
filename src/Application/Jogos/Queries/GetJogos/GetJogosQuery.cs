@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CleanArchitecture.Application.Common.Interfaces;
+using TesteInvillia.Application.Common.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Jogos.Queries.GetJogos
+namespace TesteInvillia.Application.Jogos.Queries.GetJogos
 {
     public class GetJogosQuery : IRequest<List<JogoDto>>
     {

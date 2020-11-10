@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Common.Exceptions;
+using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Amigos.Commands.DeleteAmigo
+namespace TesteInvillia.Application.Amigos.Commands.DeleteAmigo
 {
     public class DeleteAmigoCommand : IRequest
     {

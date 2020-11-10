@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Amigos.Commands.CreateAmigo
+namespace TesteInvillia.Application.Amigos.Commands.CreateAmigo
 {
     public class CreateAmigoCommandValidator : AbstractValidator<CreateAmigoCommand>
     {

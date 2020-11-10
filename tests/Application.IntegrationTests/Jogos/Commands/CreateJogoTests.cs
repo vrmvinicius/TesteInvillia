@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Jogos.Commands.CreateJogo;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Common.Exceptions;
+using TesteInvillia.Application.Jogos.Commands.CreateJogo;
+using TesteInvillia.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.IntegrationTests.Jogos.Commands
+namespace TesteInvillia.Application.IntegrationTests.Jogos.Commands
 {
     using static Testing;
 

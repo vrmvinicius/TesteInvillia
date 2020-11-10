@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.Commands.CreateEmprestimo
+namespace TesteInvillia.Application.Emprestimos.Commands.CreateEmprestimo
 {
     public class CreateEmprestimoCommandValidator : AbstractValidator<CreateEmprestimoCommand>
     {
@@ -18,8 +18,12 @@ namespace CleanArchitecture.Application.Emprestimos.Commands.CreateEmprestimo
         {
             _context = context;
 
-            RuleFor(v => v.JogoId)                
+            RuleFor(e => e.JogoId)                
+                .GreaterThan(0).WithMessage("Um jogo deve ser informado.")
                 .MustAsync(IsJogoDisponivel).WithMessage("Este jogo esta emprestado.");
+
+            RuleFor(e => e.AmigoId)
+                .GreaterThan(0).WithMessage("Um amigo deve ser informado.");
         }
 
         public async Task<bool> IsJogoDisponivel(int jogoId, CancellationToken cancellationToken)

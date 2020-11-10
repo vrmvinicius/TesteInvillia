@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Enums
+﻿namespace TesteInvillia.Domain.Enums
 {
     public enum PriorityLevel
     {

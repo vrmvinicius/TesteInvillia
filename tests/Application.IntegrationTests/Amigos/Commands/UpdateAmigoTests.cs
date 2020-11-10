@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Application.Amigos.Commands.CreateAmigo;
-using CleanArchitecture.Application.Amigos.Commands.UpdateAmigo;
-using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Amigos.Commands.CreateAmigo;
+using TesteInvillia.Application.Amigos.Commands.UpdateAmigo;
+using TesteInvillia.Application.Common.Exceptions;
+using TesteInvillia.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.IntegrationTests.Amigos.Commands
+namespace TesteInvillia.Application.IntegrationTests.Amigos.Commands
 {
     using static Testing;
 

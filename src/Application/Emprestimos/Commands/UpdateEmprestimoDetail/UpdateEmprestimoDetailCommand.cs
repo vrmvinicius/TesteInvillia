@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using TesteInvillia.Application.Common.Exceptions;
+using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Emprestimos.Commands.UpdateEmprestimoDetail
+namespace TesteInvillia.Application.Emprestimos.Commands.UpdateEmprestimoDetail
 {
     public class UpdateEmprestimoDetailCommand : IRequest
     {

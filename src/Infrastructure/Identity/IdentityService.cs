@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace TesteInvillia.Infrastructure.Identity
 {
     public class IdentityService : IIdentityService
     {
@@ -13,9 +13,9 @@ namespace CleanArchitecture.Infrastructure.Identity
 
         public IdentityService(UserManager<ApplicationUser> userManager)
         {
-            _userManager = userManager;
+            _userManager = userManager; 
         }
-
+        
         public async Task<string> GetUserNameAsync(string userId)
         {
             var user = await _userManager.Users.FirstAsync(u => u.Id == userId);

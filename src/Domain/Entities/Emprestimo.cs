@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Events;
+﻿using TesteInvillia.Domain.Common;
+using TesteInvillia.Domain.Events;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Domain.Entities
+namespace TesteInvillia.Domain.Entities
 {
     public class Emprestimo : AuditableEntity, IHasDomainEvent
     {

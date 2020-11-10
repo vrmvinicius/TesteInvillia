@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Common;
-using CleanArchitecture.Domain.Exceptions;
+﻿using TesteInvillia.Domain.Common;
+using TesteInvillia.Domain.Exceptions;
 using System;
 using System.Collections.Generic;
 
-namespace CleanArchitecture.Domain.ValueObjects
+namespace TesteInvillia.Domain.ValueObjects
 {
     public class AdAccount : ValueObject
     {

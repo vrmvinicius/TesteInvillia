@@ -1,7 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebApi;
+﻿using TesteInvillia.Application.Common.Interfaces;
+using TesteInvillia.Infrastructure.Identity;
+using TesteInvillia.Infrastructure.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -15,6 +14,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApi;
 
 [SetUpFixture]
 public class Testing
@@ -40,7 +40,7 @@ public class Testing
 
         services.AddSingleton(Mock.Of<IWebHostEnvironment>(w =>
             w.EnvironmentName == "Development" &&
-            w.ApplicationName == "CleanArchitecture.WebApi"));
+            w.ApplicationName == "TesteInvillia.WebApi"));
 
         services.AddLogging();
 

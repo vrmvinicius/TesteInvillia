@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using TesteInvillia.Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 
-namespace CleanArchitecture.Infrastructure.Identity
+namespace TesteInvillia.Infrastructure.Identity
 {
     public static class IdentityResultExtensions
     {

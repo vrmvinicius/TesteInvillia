@@ -1,7 +1,7 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using TesteInvillia.Domain.Common;
 using MediatR;
 
-namespace CleanArchitecture.Application.Common.Models
+namespace TesteInvillia.Application.Common.Models
 {
     public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
     {

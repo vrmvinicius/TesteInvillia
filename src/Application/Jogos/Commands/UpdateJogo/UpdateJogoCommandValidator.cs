@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TesteInvillia.Application.Common.Interfaces;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Application.Jogos.Commands.UpdateJogo
+namespace TesteInvillia.Application.Jogos.Commands.UpdateJogo
 {
     public class UpdateJogoCommandValidator : AbstractValidator<UpdateJogoCommand>
     {

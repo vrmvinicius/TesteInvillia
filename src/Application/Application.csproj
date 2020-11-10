@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>CleanArchitecture.Application</RootNamespace>
-    <AssemblyName>CleanArchitecture.Application</AssemblyName>
+    <RootNamespace>TesteInvillia.Application</RootNamespace>
+    <AssemblyName>TesteInvillia.Application</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
